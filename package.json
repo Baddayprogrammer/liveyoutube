@@ -1,0 +1,12 @@
+{
+  "name": "youtube-bio-live",
+  "version": "1.0.0",
+  "description": "Simple social bio",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Nessuna build necessaria'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
