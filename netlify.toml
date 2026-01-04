@@ -1,0 +1,11 @@
+[build]
+  # Dice a Netlify: "Non provare a compilare nulla, copia solo i file"
+  command = "" 
+  # Dice a Netlify: "Il sito è nella cartella principale"
+  publish = "/" 
+  # Dice a Netlify: "Le funzioni sono qui"
+  functions = "netlify/functions"
+
+[functions]
+  # Forza l'uso di una versione recente di Node per supportare 'fetch'
+  node_bundler = "esbuild"
